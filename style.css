@@ -1,0 +1,111 @@
+body {background-color: rgba(196, 64, 252, 0.518);
+direction:rtl
+}
+input {
+    background-color: antiquewhite;
+}
+h1{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 100;
+}
+a{
+color: rgb(5, 85, 5);
+border: 3px black solid;
+text-align: center;
+
+}
+#privatedetailslink {
+    background-color: rgb(241, 98, 215);
+}
+#newslink {
+    background-color: rgb(231, 126, 226);
+
+}
+#videoslink{
+    background-color: rgb(238, 159, 233);
+}
+#contactlink{
+    background-color: rgb(228, 193, 218);
+}
+.links{
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    width: 300px;
+}
+#img-pd{
+    padding: 10px;
+    margin-bottom: 70px;
+}
+.backtohm{
+    background-color: rgb(192, 134, 247);
+}
+table{
+    direction: ltr;
+    border: 1px black solid;
+    background-color: rgb(236, 186, 236);
+    margin: auto;
+
+}
+td, th {
+    border: 1px black solid;
+    padding: 5px;
+}
+#harplayer{
+    width: 200px
+}
+#squidgimg{
+    width: 200px;
+}
+.linksvideop{
+    background-color: rgb(234, 168, 216);
+}
+#searchtext{
+    background-color:rgb(178, 111, 240);
+    display: block;
+    margin-bottom: 12px;
+    margin-top: 15px;
+    padding: 20px;
+    border-color: rgb(80, 12, 144);
+    text-align: center;
+}
+#searchyt{
+    background-color: rgb(156, 68, 238);
+    margin-bottom: 70px;
+}
+h3{
+    margin: auto;
+    margin-top: 30px;
+    font-size: larger;
+    font-weight: 400px;
+}
+::placeholder{
+    font-weight: bold;
+    color: black;
+}
+#newsImg{
+    width: 300px;
+    margin-bottom: 70px;
+}
+.newslinks{
+    background-color: rgb(145, 177, 248);
+    display: block;
+    margin-bottom: 10px;
+    width: 80px;
+}
+#contactform{
+    direction: ltr;
+    text-align: center;
+    background-color: rgb(114, 232, 171);
+    padding: 30px;
+    margin-bottom: 70px;
+
+}
+.formfield{
+    background-color: rgb(118, 233, 220);
+}
+#submitf{
+    background-color: rgb(22, 159, 33);
+    color: aliceblue;
+}

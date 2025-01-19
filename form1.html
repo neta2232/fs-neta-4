@@ -4,41 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>contact us</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>צור קשר</h1>
-    <form>
-        <label for="pname">private name   </label>
+    <form id="contactform">
+        <label for="pname">first name</label>
+            
 
-<input id="pname" required placeholder="שם פרטי" type="text">
+<input id="pname" class="formfield" name="fname" required placeholder="שם פרטי" type="text">
 <br/> <br/>
 <label for="lname"> last name</label>
 
-<input id="lname" required placeholder="שם משפחה" type="text">
+<input id="lname" class="formfield" required placeholder="שם משפחה" type="text">
 <br/> <br/>
 <label for="theaddress"> address </label>
 
-<input id="theaddress" required placeholder="כתובת" type="text">
+<input id="theaddress" class="formfield" required placeholder="כתובת" type="text">
 <br/> <br/>
 <label for="pnum">   phone number</label>
 
-<input id="pnum" required placeholder="מספר טלפון" type="number">
+<input id="pnum" class="formfield" required placeholder="מספר טלפון" type="tel">
 <br/> <br/>
 <label for="mail">   email </label>
 
-<input id="mail" required placeholder="אימייל" type="email">
+<input id="mail" class="formfield" required placeholder="אימייל" type="email">
 <br/> <br/>
 <label for="details">  תוכן הפנייה</label>
 <br> 
-<textarea id="details" required></textarea>
+<textarea id="details" class="formfield" required></textarea>
+<br/> <br/>
+איך הגעת אלינו?
+<br/>
+<select name="socialmedia" class="formfield" required>
+    <option selected disabled value="">Choose from the list</option>
+    <option>Facebook</option>
+    <option>Google</option>
+    <option>Friend</option>
+    <option>Other</option>
+</select>
 <br/> <br/>
 <label for="cheack">הסכמה לקבלת תוכן שיווקי</label>
-<input id="cheack"  required type="checkbox">
+<input id="cheack" class="formfield" required type="checkbox">
 <br/> <br/>
-<button>submit</button>
+<button id="submitf">submit</button>
 
     </form>
     <br/>
-    <a href="index.html">חזרה לדף הבית</a>
+    <a class="backtohm" href="index.html">חזרה לדף הבית</a>
 </body>
 </html>

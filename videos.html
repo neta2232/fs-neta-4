@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>videos</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>עמוד סרטונים</h1>
-    <table border="10">
+    <table>
         <tr>
             <th> name </th>
             <th>link</th>
@@ -16,22 +17,27 @@
         </tr>
         <tr>
             <td>harp video</td>
-            <td><a href="https://youtu.be/_xn3uAHZHcc">סרטון של מישהי מנגנת בנבל</a>
+            <td><a class="linksvideop" href="https://youtu.be/_xn3uAHZHcc">סרטון של מישהי מנגנת בנבל</a>               
             </td>       
-            <td><img src="harp.png" width="200"></td>
+            <td><img id="harplayer" src="harp.png"></td>
             <td>2.7M</td>
 
 
         </tr>
         <tr>
             <td>squid game trailer</td>
-            <td><a href="https://youtu.be/oqxAJKy0ii4">טריילר למשחק הדיונון</a>
+            <td><a class="linksvideop" href="https://youtu.be/oqxAJKy0ii4">טריילר למשחק הדיונון</a>
             </td>  
-            <td> <img src="squidgame.png" width="200"></td>
+            <td> <img id="squidgimg" src="squidgame.png" width="200"></td>
             <td>56M</td>
-        </table>
+        </table id="tablevideos">
         <br/>
-
-    <a href="index.html">חזרה לדף הבית</a>
+        <form action=""></form>
+        <form action="https://www.youtube.com/search" target="_blank">
+            <h3>חיפוש סרטונים ביוטיוב: </h3>
+            <input id="searchtext" name="q" placeholder="search videos on youtube">
+            <input id="searchyt" type="submit" value="search"/>
+<br/><br/>
+    <a class="backtohm" href="index.html">חזרה לדף הבית </a>
 </body>
 </html>
