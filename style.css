@@ -1,4 +1,4 @@
-body {background-color: rgba(196, 64, 252, 0.518);
+body {background-color: rgba(89, 154, 225, 0.518);
 direction:rtl
 }
 input {
@@ -33,18 +33,28 @@ text-align: center;
     margin: auto;
     margin-bottom: 20px;
     width: 300px;
+    padding: 2px;
 }
 #img-pd{
+    display: block;
     padding: 10px;
-    margin-bottom: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    margin-bottom: 20px;
 }
 .backtohm{
-    background-color: rgb(192, 134, 247);
+    background-color: rgb(134, 166, 247);
+    color: black;
+    padding: 3px;
+    display: block;
+    margin-top: 70px;
+    width: 95px;
 }
 table{
     direction: ltr;
     border: 1px black solid;
-    background-color: rgb(236, 186, 236);
+    background-color: rgb(126, 197, 247);
     margin: auto;
 
 }
@@ -59,20 +69,24 @@ td, th {
     width: 200px;
 }
 .linksvideop{
-    background-color: rgb(234, 168, 216);
+    background-color: rgb(129, 161, 227);
+    border: 3.5px rgb(27, 152, 229) solid;
 }
 #searchtext{
-    background-color:rgb(178, 111, 240);
+    background-color:rgb(174, 174, 246);
     display: block;
     margin-bottom: 12px;
     margin-top: 15px;
     padding: 20px;
-    border-color: rgb(80, 12, 144);
+    border-color: rgb(144, 112, 174);
     text-align: center;
 }
 #searchyt{
-    background-color: rgb(156, 68, 238);
+    background-color: rgb(189, 135, 255);
     margin-bottom: 70px;
+    text-align: center;
+    color: rgb(19, 22, 24);
+    width: 65px;
 }
 h3{
     margin: auto;
@@ -89,7 +103,7 @@ h3{
     margin-bottom: 70px;
 }
 .newslinks{
-    background-color: rgb(145, 177, 248);
+    background-color: rgb(176, 199, 250);
     display: block;
     margin-bottom: 10px;
     width: 80px;
@@ -108,4 +122,13 @@ h3{
 #submitf{
     background-color: rgb(22, 159, 33);
     color: aliceblue;
+}
+.pd-text{
+    background-color: rgb(127, 210, 255);
+    padding: 5px;
+    text-align: center;
+    
+}
+.gender-pd{
+    text-align: center;
 }
