@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="mission.css">
+</head>
+<body>
+    <h1 class="titles">Add Product</h1>
+    <form>
+        <label for="productname">Product name:</label>
+<input required type="text"id="nameofpro" class="inputs" alt="product name" placeholder=" type product name" >
+<label for="productprice">Product price:</label>
+<input required type="number" id="priceofpro" class="inputs" alt ="product price"  placeholder="type product price">
+<label for="Productname">Product catagory:</label>
+<select required name="foodoptions" id="food" >
+    <option value ="Drinks">Drinks</option>
+    <option value="Meat">Meat</option>
+    <option value="Dairy">Dairy</option>
+    <option value="Snacks">Snacks</option>
+    <option value="Basic">Basic</option>
+</select>
+<label for = "imglink">Link to an image:</label>
+<textarea required id="linkvalue" placeholder="please put a link to the product Image" ></textarea>
+    </form>
+    <button id="addbtn" onclick="addFeatures(); clearform();">Add Product</button>
+    <h1 class="titles">My Cart</h1>
+    <div id="cartdiv">
+    <table id="thecart" border="4">
+        <tr>
+            <th colspan="4"> the new product</th>
+        </tr>
+
+    </table>
+</div>
+    <script src="mission.js"></script>
+</body>
+</html>

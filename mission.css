@@ -1,0 +1,40 @@
+.inputs {
+display: block;
+margin-bottom: 5px;
+margin-top: 5px;
+
+}
+#food{
+    display: block;
+    margin-top: 5px;
+}
+#linkvalue{
+    display: block;
+    margin-top: 5px;
+}
+.titles{
+    text-align: center;
+}
+#thecart{
+    border: 2px solid black;
+    
+}
+table{
+    background-color: rgb(192, 214, 247);
+    margin-left: auto;
+            margin-right: auto;
+}
+form{
+    display: grid;
+    background-color: bisque;
+   justify-content: center;
+}
+button{
+    margin-top: 5px;
+    background-color: antiquewhite;
+    border-radius: 12px;
+}
+body{
+    text-align: center;
+    background-color: rgb(212, 246, 247);
+}
